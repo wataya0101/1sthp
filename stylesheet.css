@@ -1,0 +1,189 @@
+*{
+box-sizing:border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.container{
+  max-width: 1170px;
+  width:100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/*ヘッダー*/
+header{
+  background-color:rgba(34, 49, 52, 0.9);
+  height: 50px;
+  width:100%;
+  position: fixed;
+  top:0px;
+  z-index: 5;
+}
+
+.logo{
+  height:50px;
+  float:left;
+}
+
+.header-right{
+  float:right;
+  background-color:rgba(255, 255, 255, 0.3);
+  line-height: 50px;
+  padding:0px 10px;
+  display:block;
+  transition:all 1s;
+}
+
+.login{
+  color:white;
+}
+
+.header-right:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*トップ*/
+.container{
+  width:100%;
+  margin:0 auto;
+  padding: 0 15px;
+}
+
+.top-wrapper{
+  background-image:url(img/notebook-1280538_1920.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 180px 0 100px 0;
+}
+
+h1{
+  color:white;
+  font-size: 45px;
+  letter-spacing: 10px;
+}
+
+h2{
+  color: white;
+  font-size: 20px;
+}
+
+.top-wrapper p{
+  color:white;
+}
+
+.btn{
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  color:white;
+  padding: 10px 20px;
+}
+
+.btn:hover{
+  opacity:1;
+}
+
+.newmenber{
+  background-color: green;
+}
+
+.blog{
+  background-color: orange;
+  margin-right: 10px;
+}
+
+.twitter{
+  background-color: #55acee;
+}
+
+.fas{
+  margin-right: 5px;
+}
+
+.fab{
+  margin-right: 5px;
+}
+
+/*プロフィール*/
+.profile-wrapper{
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+h3{
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+  padding-top:10px;
+}
+
+.profile{
+  float:left;
+  width:25%;
+}
+
+.profile-item{
+  position: relative;
+}
+
+.profile-item p{
+  position:absolute;
+  top:50px;
+  width:100%;
+}
+
+.profile-image{
+  height:200px;
+  width:200px;
+}
+
+.clear{
+  clear: left;
+}
+
+/*スキル*/
+.skill-wrapper{
+  background-color:#FFFFCC;
+}
+
+.skill{
+  float:left;
+  width:25%;
+}
+
+.skilles li{
+  margin: 10px;
+}
+
+.botan{
+  cursor: pointer;
+  background-color:orange;
+  box-shadow:0px 5px #CC6600
+}
+
+.botan:active{
+  box-shadow: none;
+  position: relative;
+  top:5px;
+}
+
+input{
+  padding:10px 40px;
+}
+
+textarea{
+  padding:40px 40px;
+}
+
+/*雑*/
+.top-img{
+  padding-right:10px;
+}
+
+/*フッター*/
+footer{
+  background-color:rgba(34, 49, 52, 0.9);
+  height: 50px;
+}
